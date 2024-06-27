@@ -6,7 +6,7 @@ We recommend using Ubuntu since Docker doesn't not support directly for Windows.
 It need a WSL (Windows Sub-system for Linux) to be able to run Docker.
 
 - Windows [here](https://docs.docker.com/desktop/install/windows-install/)
-- Ubuntu 
+- Ubuntu
 ```bash
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -34,12 +34,13 @@ docker compose version
 # Build and run project
 
 ## Preparation
-### Download docker-compose.yml file
-### Ubuntu
+### 1. Download docker-compose.yml file
+### 2. Navigate to the file
+#### Ubuntu
 
 - Navigate to foler containing docker-compose.yml file.
 
-- Open terminal: **Ctrl+Alt+T** 
+- Open terminal: **Ctrl+Alt+T**
 
 - Switch to the root user to be able to run docker commands.
 
@@ -47,25 +48,25 @@ docker compose version
     sudo -i
     cd /$FIlE/PATH
     ```
-    Replace /$FILE/PATH with your actual file path.
+  Replace /$FILE/PATH with your actual file path.
 
-    An alternative is adding the current user to docker group.
+  An alternative is adding the current user to docker group.
     ```bash
     sudo groupadd docker
     usermod -aG docker $USER
     ```
-    Replace the $USER with the actual user name.
-    
-    Reboot to apply changes.
+  Replace the $USER with the actual user name.
 
-### Windows
+  Reboot to apply changes.
+
+#### Windows
 - First, launch the Docker Desktop application.
 - Navigate to the folder containing the docker-compose.yml file.
 - Open CMD or Terminal
 
 
 
-## Run
+#### Run
 
 Run the below command to run project:
 
