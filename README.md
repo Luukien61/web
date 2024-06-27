@@ -44,9 +44,9 @@ docker compose version
 
     ```bash
     sudo -i
-    cd /$FOLDER/PATH
+    cd /$FIlE/PATH
     ```
-    Replace /$FOLDER/PATH with your actual folder path.
+    Replace /$FOLDER/PATH with your actual file path.
 
     An alternative is adding the current user to docker group.
     ```bash
