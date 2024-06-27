@@ -34,6 +34,7 @@ docker compose version
 # Build and run project
 
 ## Preparation
+### Download docker-compose.yml file
 ### Ubuntu
 
 - Navigate to foler containing docker-compose.yml file.
