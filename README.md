@@ -66,7 +66,7 @@ docker compose version
 
 
 
-#### Run
+## Run
 
 Run the below command to run project:
 
